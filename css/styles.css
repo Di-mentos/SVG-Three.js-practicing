@@ -1,0 +1,239 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(130deg, rgba(255, 69, 0, 0.4), rgba(255, 215, 0, 0.7) 70%), linear-gradient(286deg, rgba(240, 128, 128, 0.9), rgb(238, 232, 170));
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@-webkit-keyframes hoverLine {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes hoverLine {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.header__content {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__logo {
+  display: inline-block;
+  position: relative;
+}
+.header__link {
+  line-height: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.header__link:hover + .header__svg .header__path1, .header__link:hover + .header__svg .header__path2, .header__link:hover + .header__svg .header__path3 {
+  -webkit-animation: hoverLine 2s ease-out forwards;
+          animation: hoverLine 2s ease-out forwards;
+}
+.header__link:hover + .header__svg .header__path1 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  -webkit-animation-duration: 2.2s;
+          animation-duration: 2.2s;
+}
+.header__link:hover + .header__svg .header__path3 {
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+.header__link:not(:hover) + .header__svg .header__path1 {
+  -webkit-animation: notHoverLine2 2s ease-out forwards;
+          animation: notHoverLine2 2s ease-out forwards;
+}
+.header__svg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -8%;
+  margin: 0 auto;
+}
+.header__path1 {
+  fill: transparent;
+  stroke: black;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+.header__path2, .header__path3 {
+  fill: transparent;
+  stroke: black;
+  stroke-dasharray: 80;
+  stroke-dashoffset: 80;
+}
+
+@-webkit-keyframes linkUnderline {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes linkUnderline {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.menu__item {
+  display: inline-block;
+  position: relative;
+}
+.menu__item:nth-child(1) {
+  padding: 0 4px;
+}
+.menu__item:nth-child(2) {
+  padding: 0 11px;
+}
+.menu__item:nth-child(3) {
+  padding: 0 2px;
+}
+.menu__item:nth-child(4) {
+  padding: 0 6px;
+}
+.menu__item:not(:last-child) {
+  margin-right: 1.8vw;
+}
+.menu__link {
+  display: inline-block;
+  font: 2em/1.5 "Quintessential", serif;
+  color: #000;
+}
+.menu__link:hover + .menu__svg .menu__path {
+  -webkit-animation: linkUnderline 1.2s linear forwards;
+          animation: linkUnderline 1.2s linear forwards;
+}
+.menu__svg {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+.menu__item .menu__path {
+  stroke-width: 1.5;
+  stroke-dasharray: 250;
+  stroke-dashoffset: 250;
+}
+
+@-webkit-keyframes textOrnament {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes textOrnament {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.description__content {
+  padding-top: 30px;
+}
+.description__textWrapper {
+  max-width: 600px;
+  position: relative;
+}
+.description__quote {
+  font: 24px/1.5 "Eagle Lake", serif;
+  font-style: italic;
+}
+.description__author {
+  display: inline-block;
+  margin-top: 25px;
+}
+.description__svg {
+  position: absolute;
+  bottom: -40%;
+  left: 0;
+}
+.description__path {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  -webkit-animation: textOrnament 4s linear forwards 4s;
+          animation: textOrnament 4s linear forwards 4s;
+}

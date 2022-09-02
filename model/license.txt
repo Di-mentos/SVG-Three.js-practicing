@@ -1,0 +1,11 @@
+Model Information:
+* title:	An Old Ring
+* source:	https://sketchfab.com/3d-models/an-old-ring-ea5e0c11f2e046c993239ea1a3efcad7
+* author:	Qifan Zhang (https://sketchfab.com/qifanzhang)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "An Old Ring" (https://sketchfab.com/3d-models/an-old-ring-ea5e0c11f2e046c993239ea1a3efcad7) by Qifan Zhang (https://sketchfab.com/qifanzhang) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

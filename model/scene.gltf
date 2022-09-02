@@ -1,0 +1,308 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9775,
+      "max": [
+        2.6262993812561035,
+        -3.245056629180908,
+        3.501692056655884
+      ],
+      "min": [
+        2.2914609909057617,
+        -3.6028687953948975,
+        3.219864845275879
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 117300,
+      "componentType": 5126,
+      "count": 9775,
+      "max": [
+        0.9999763369560242,
+        0.998899519443512,
+        0.999438464641571
+      ],
+      "min": [
+        -0.9999555349349976,
+        -0.9999659061431885,
+        -0.9999329447746277
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9775,
+      "max": [
+        0.9991869926452637,
+        0.9999622106552124,
+        0.8036159873008728,
+        1.0
+      ],
+      "min": [
+        -0.9853838086128235,
+        -0.9998883008956909,
+        -0.9217292666435242,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9775,
+      "max": [
+        0.7242095470428467,
+        0.57230144739151
+      ],
+      "min": [
+        0.2538435161113739,
+        0.29623526334762573
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 57276,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Qifan Zhang (https://sketchfab.com/qifanzhang)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/an-old-ring-ea5e0c11f2e046c993239ea1a3efcad7",
+      "title": "An Old Ring"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 229104,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 78200,
+      "byteOffset": 229104,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 234600,
+      "byteOffset": 307304,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 156400,
+      "byteOffset": 541904,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 698304,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/EMP_Accessories_baseColor.png"
+    },
+    {
+      "uri": "textures/EMP_Accessories_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/EMP_Accessories_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "EMP_Accessories",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ring_low_EMP_Accessories_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        -0.1385226845741272,
+        0.06041527166962624,
+        -0.03867084160447119,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "252d42a716414d569bbaaf31b207450f.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        4.107410956092891,
+        -0.9821143243396645,
+        4.238722418645664,
+        0.0,
+        4.08645098772429,
+        -1.1308515376663792,
+        -4.221875670282012,
+        0.0,
+        1.4940664688459078,
+        5.792992948754456,
+        -0.10554209106271702,
+        0.0,
+        -1.1395314931869507,
+        -20.23019027709961,
+        -24.34467887878418,
+        1.0
+      ],
+      "name": "group1"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        -1.1102230246251565e-16,
+        -6.071532165918825e-17,
+        0.0,
+        1.1102230246251565e-16,
+        1.0,
+        2.4286128663675293e-17,
+        0.0,
+        6.071532165918825e-17,
+        -2.42861286636753e-17,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "ring_low"
+    },
+    {
+      "mesh": 0,
+      "name": "ring_low_EMP_Accessories_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
